@@ -1,0 +1,173 @@
+/* Navigation Styles*/
+
+#navigationBorder{
+  border-bottom: solid 6px #1eb5e1;
+  background-color: white;
+}
+
+#navID{
+  margin: 5px;
+  padding:8px;  
+  background-color: #1eb5e1;
+  color: white;
+  border: none;
+}
+
+#report{
+  width: 130px;
+  height: 180px;
+}
+
+/* Landing page*/
+
+#home{
+  color: white;
+}
+
+
+#roundBorders{
+  border: 5px solid white;
+}
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+#sponsors img {
+  width: 100%;
+  height: auto;
+}
+
+#sponsors p{
+margin-left: 9%;
+}
+
+.thumbnail{
+  height: 600px
+}
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;  
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 5.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+
+  #movie_frame {
+    width: 100%;
+  }
+@media (max-width: 768px) {
+  #movie_frame{
+    min-height: 300px;
+    max-height: 500px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  #movie_frame{
+    min-height: 350px;
+    max-height: 400px;  }
+}
+@media (min-width: 992px) and (max-width: 1200px ) { 
+  #movie_frame{
+    min-height: 300px;
+    max-height: 350px;  }
+}
+@media (min-width: 1200px ) { 
+  #movie_frame{
+    min-height: 400px;
+    max-height: 450px;  }
+}
+
+
+/* additional sections */
+#home {
+  background: url(../img/insects_in_hands.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {
+}
+
+#services {
+  background-color: #1eb5e1;
+  color: #ffffff;
+}
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#information {
+  background: url(../img/bugupgrass.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 300px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#information .panel {
+  opacity: 0.85;
+}
+
+
+#profilesImage {
+  background: url(../img/bugsinhand.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 300px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#profilesImage .panel {
+  opacity: 0.85;
+}
+
+.img-circle{
+  max-width:75%
+}
+
+#google_map {
+  height: 50px;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
